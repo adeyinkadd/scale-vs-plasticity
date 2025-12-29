@@ -38,7 +38,7 @@ Model behavior is evaluated using **predictive uncertainty (Shannon entropy)**.
 
 ## Getting Started
 
-### Installation
+### Installation(Local)
 
 ```bash
 git clone https://github.com/adeyinkadd/scale-vs-plasticity.git
@@ -48,9 +48,6 @@ pip install -r requirements.txt
 Run the Benchmark
 python benchmark.py
 ```
-
-
-
 ## This will:
 
 Generate synthetic domain-shifted batches
@@ -60,6 +57,18 @@ Run both models through the stream
 Record entropy and feature drift over time
 
 Save comparison plots to plots/result.png
+
+### Run on Google Colab
+You can run this benchmark instantly in the cloud:
+
+1. Open a new [Google Colab Notebook](https://colab.research.google.com/).
+2. Create a code cell and run this block:
+   ```python
+   !git clone [https://github.com/adeyinkadd/scale-vs-plasticity.git](https://github.com/adeyinkadd/scale-vs-plasticity.git)
+   %cd scale-vs-plasticity
+   !pip install -r requirements.txt
+   !python benchmark.py```
+
 
 ## Repository Structure
 ## Project Structure
